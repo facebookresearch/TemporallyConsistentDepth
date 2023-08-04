@@ -4,6 +4,7 @@
 *.ini
 *.pyc
 *.png
+*.pt
 *.pth
 *~
 __pycache__
