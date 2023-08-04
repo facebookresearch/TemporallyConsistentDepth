@@ -1,0 +1,37 @@
+name: tcod
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.3.1
+  - ffmpeg=4.3
+  - numpy=1.21.2
+  - numpy-base=1.21.2
+  - pillow=9.0.1
+  - pip=21.2.2
+  - python=3.7.11
+  - python_abi=3.7
+  - pytorch=1.10.2
+  - pytorch-mutex=1.0=cuda
+  - pyyaml=5.4.1
+  - setuptools=58.0.4
+  - torchaudio=0.10.2
+  - torchvision=0.11.3
+  - tqdm=4.63.0
+  - pip:
+    - moviepy==1.0.3
+    - opt-einsum==3.3.0
+    - matplotlib==3.5.1
+    - numpy==1.21.2
+    - opencv_contrib_python==4.5.5.64
+    - raft==1.4.1.4
+    - scikit_image==0.19.2
+    - setuptools==58.0.4
+    - scikit-image
+    - timm==0.6.7
+    - torch==1.10.2
+    - torchvision==0.11.3
+    - tqdm==4.63.0
+    - wget==3.2
+

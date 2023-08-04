@@ -1,0 +1,6 @@
+[submodule "DPT"]
+	path = DPT
+	url = https://github.com/isl-org/DPT
+[submodule "RAFT-Stereo"]
+	path = RAFT-Stereo
+	url = https://github.com/princeton-vl/RAFT-Stereo
