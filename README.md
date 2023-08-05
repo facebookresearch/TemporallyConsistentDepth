@@ -43,10 +43,10 @@ A small subset of ScanNet data is included in the `test_data` folder for demoing
 ```
 $ python ./run.py --demo
 ```
-By default, this script will generate a visual comparison of the results (RGB | Input Depth | Our Result) in a folder called `output`. You can use the `--save_numpy` flag to save the actual floating point depth values to separate files. A different output location can be specified by passing the `--outdir` argument.
+By default, this script will generate a visual comparison of the results (RGB | Input Depth | Our Result) in a folder called `output`. You can use the `--save_numpy` flag to save the actual floating point depth values to separate files. A different output location can be specified by setting the `--outdir` argument.
 
 ### Running on ScanNet
-To run the method on with monocular depth estimation on a ScanNet scene use:
+To run the method with monocular depth estimation on a ScanNet scene use:
 
 `$ python ./run.py --scannet --indir=/ScanNet/scans/sceneXXXX_XX --outdir=/PATH_TO_OUTPUT_DIR`
 
